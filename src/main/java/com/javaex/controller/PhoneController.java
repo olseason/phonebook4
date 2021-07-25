@@ -159,8 +159,6 @@ public class PhoneController {
 	
 	
 	
-	
-	
 	//PathVariable
 	@RequestMapping(value="/board/read/{no}", method= {RequestMethod.GET, RequestMethod.POST} )
 	public String read(@PathVariable("no") int boardNo) {
